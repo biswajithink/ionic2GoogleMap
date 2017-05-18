@@ -62,7 +62,6 @@ round-progress{
   display: table-cell;
   vertical-align: middle;
   height: 100%;
-  border: 5px solid aliceblue;
   
 }
 
@@ -85,8 +84,8 @@ round-progress{
     left: 29%;
     width: 320px !important;
     height: 320px !important;
-    margin-left: -1px;
-    margin-top: 2px;
+    margin-left: 1px;
+    margin-top: 4px;
   }
 }
 
@@ -100,8 +99,8 @@ round-progress{
     left: 27%;
     width: 270px !important;
     height: 270px !important;
-    margin-left: 1px;
-    margin-top: 5px;
+    margin-left: 3px;
+    margin-top: 8px;
   }
 }
 @media screen and (max-width:414px){
@@ -110,22 +109,22 @@ round-progress{
     width: 250px;   
   }
   round-progress{
-    top: 31%;
+    top: 32%;
     left: 17%;
     width: 270px !important;
     height: 270px !important;
-    margin-left: -2px;
-    margin-top: 3px;
+    margin-left: 2px;
+    margin-top: -3px;
   }
 }
 @media screen and (max-width:412px){
   round-progress{
     top: 32%;
-    left: 17%;
+    left: 18%;
     width: 270px !important;
     height: 270px !important;
-    margin-left: -2px;
-    margin-top: -5px;
+    margin-left: -3px;
+    margin-top: -3px;
   }
 }
 @media screen and (max-width:375px){
@@ -134,8 +133,8 @@ round-progress{
     left: 14%;
     width: 270px !important;
     height: 270px !important;
-    margin-left: -3px;
-    margin-top: 1px;
+    margin-left: 0px;
+    margin-top: 5px;
   }
 }
 @media screen and (max-width:360px){
@@ -144,17 +143,17 @@ round-progress{
     left: 12%;
     width: 270px !important;
     height: 270px !important;
-    margin-left: -2px;
-    margin-top: -1px;
+    margin-left: 2px;
+    margin-top: 1px;
   }
 }
 @media screen and (max-width:320px){
   round-progress{
-    top: 26%;
+    top: 27%;
     left: 8%;
     width: 270px !important;
     height: 270px !important;
-    margin-left: -5px;
-    margin-top: -1px;
+    margin-left: -1px;
+    margin-top: -4px;
   }
 }

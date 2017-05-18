@@ -11,11 +11,6 @@ interface marker {
 	draggable: boolean;
 }
 
-// @param {number} radius - The radius of the circle.
- 
-function circlePath(radius: number): string {
-	return `M-${radius},0a${radius},${radius} 0 1,0 ${radius * 2},0a${radius},${radius} 0 1,0 -${radius * 2},0`;
-}
 
 
 @Component({
