@@ -1,0 +1,160 @@
+
+
+page-home{
+  .homeContent{
+    background: #ccc;
+    text-align: center;
+      .scroll-content{
+        display: table;
+        width: 100%;
+        height: 100%;
+      }
+  }  
+}
+.googleMap {
+    height: 250px;
+    width: 250px;
+    margin: 20px auto;
+    display: block;
+    position: relative;
+    z-index: 10;
+    border-radius: 100%;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    .sebm-google-map-container-inner{
+      border-radius: 100%;
+      div{
+        border-radius: 100%;
+      }
+    }
+}
+round-progress{
+  position: absolute !important;
+  top: 28%;
+  left: 13%;
+  width: 270px !important;
+  height: 270px !important;
+  margin-left: 1px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 100%;
+  svg{
+    path{
+      stroke: #006622 !important;
+    }
+  }
+}
+
+
+.gmnoprint img{
+  position: absolute;
+  z-index: 11;
+  top: 33%;
+  left: 0px;
+  right: 0px;
+}
+
+
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin: 50px auto;
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  border: 5px solid aliceblue;
+  
+}
+
+#map {
+  width: inherit;
+  height: inherit;
+  .gmnoprint {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:768px){
+  .googleMap {
+    height: 300px;
+    width: 300px;   
+  }
+  round-progress{
+    top: 34%;
+    left: 29%;
+    width: 320px !important;
+    height: 320px !important;
+    margin-left: -1px;
+    margin-top: 2px;
+  }
+}
+
+@media screen and (max-width:600px){
+  .googleMap {
+    height: 250px;
+    width: 250px;   
+  }
+  round-progress{
+    top: 37%;
+    left: 27%;
+    width: 270px !important;
+    height: 270px !important;
+    margin-left: 1px;
+    margin-top: 5px;
+  }
+}
+@media screen and (max-width:414px){
+  .googleMap {
+    height: 250px;
+    width: 250px;   
+  }
+  round-progress{
+    top: 31%;
+    left: 17%;
+    width: 270px !important;
+    height: 270px !important;
+    margin-left: -2px;
+    margin-top: 3px;
+  }
+}
+@media screen and (max-width:412px){
+  round-progress{
+    top: 32%;
+    left: 17%;
+    width: 270px !important;
+    height: 270px !important;
+    margin-left: -2px;
+    margin-top: -5px;
+  }
+}
+@media screen and (max-width:375px){
+  round-progress{
+    top: 29%;
+    left: 14%;
+    width: 270px !important;
+    height: 270px !important;
+    margin-left: -3px;
+    margin-top: 1px;
+  }
+}
+@media screen and (max-width:360px){
+  round-progress{
+    top: 26%;
+    left: 12%;
+    width: 270px !important;
+    height: 270px !important;
+    margin-left: -2px;
+    margin-top: -1px;
+  }
+}
+@media screen and (max-width:320px){
+  round-progress{
+    top: 26%;
+    left: 8%;
+    width: 270px !important;
+    height: 270px !important;
+    margin-left: -5px;
+    margin-top: -1px;
+  }
+}

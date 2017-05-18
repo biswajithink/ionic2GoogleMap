@@ -1,0 +1,26 @@
+<!--<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>-->
+
+<ion-content class="homeContent" onload="increment()">
+  <div class="wrapper">
+  <sebm-google-map class="googleMap" [latitude]="lat" [longitude]="lng" draggable="false">
+  <sebm-google-map-marker 
+          *ngFor="let m of markers; let i = index"
+          (markerClick)="clickedMarker(m.label, i)"
+          [latitude]="m.lat"
+          [longitude]="m.lng"
+          [label]="m.label"
+          [markerDraggable]="m.draggable"
+          (dragEnd)="markerDragEnd(m, $event)"></sebm-google-map-marker>
+  </sebm-google-map>
+    
+    <round-progress [current]="current" [max]="max"></round-progress>
+    
+  </div>
+</ion-content>
+
