@@ -51,7 +51,9 @@ round-progress{
     }
   }
 }
-
+.gm-style .gm-style-cc span, .gm-style .gm-style-cc a, .gm-style .gm-style-mtc div {
+        display: none !important;
+}
 
 .gmnoprint img{
   position: absolute;
@@ -146,9 +148,10 @@ round-progress{
     margin-top: 5px;
   }
 }
+
 @media screen and (max-width:360px){
   round-progress{
-    top: 26%;
+    top: 28%;
     left: 12%;
     width: 270px !important;
     height: 270px !important;

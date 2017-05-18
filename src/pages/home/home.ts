@@ -31,7 +31,7 @@ export class HomePage {
   radius: number = 270;
   semicircle: boolean = false;
   rounded: boolean = false;
-  responsive: boolean = false;
+  responsive: boolean = true;
   clockwise: boolean = false;
   color: string = '#45ccce';
   background: string = '#eaeaea';
