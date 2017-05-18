@@ -22,22 +22,22 @@ interface marker {
 export class HomePage {
 
   
-lat: number = 51.678418;
-  lng: number = 7.809007;
+  lat: number = 22.692501;
+  lng: number = 88.465448;
 
-	current: number = 50;
-  max: number = 50;
+	current: number = 10;
+  max: number = 10;
   stroke: number = 10;
   radius: number = 270;
   semicircle: boolean = false;
   rounded: boolean = false;
   responsive: boolean = false;
-  clockwise: boolean = true;
+  clockwise: boolean = false;
   color: string = '#45ccce';
   background: string = '#eaeaea';
-  duration: number = 30000;
-  animation: string = 'easeOutCubic';
-  animationDelay: number = 120;
+  duration: number = 60000;
+  animation: string = 'linearEase';
+  animationDelay: number = 0;
   animations: string[] = [];
   gradient: boolean = false;
   realCurrent: number = 0;
@@ -86,8 +86,8 @@ getOverlayStyle($event) {
 
   markers: marker[] = [
 	  {
-		  lat: 51.673858,
-		  lng: 7.815982,
+		  lat: 22.692501,
+		  lng: 88.465448,
 		  label: '',
 		  draggable: false
 	  }

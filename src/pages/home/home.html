@@ -7,8 +7,8 @@
 </ion-header>-->
 
 <ion-content class="homeContent" onload="increment()">
-  <div class="wrapper">
-  <sebm-google-map class="googleMap" [latitude]="lat" [longitude]="lng" draggable="false">
+  <div class="wrapper" >
+  <sebm-google-map class="googleMap" [latitude]="lat" [longitude]="lng"  [mapDraggable]="false" [disableDefaultUI]="true" [zoomControl]="false">
   <sebm-google-map-marker 
           *ngFor="let m of markers; let i = index"
           (markerClick)="clickedMarker(m.label, i)"
@@ -19,7 +19,7 @@
           (dragEnd)="markerDragEnd(m, $event)"></sebm-google-map-marker>
   </sebm-google-map>
     
-    <round-progress [current]="current" [max]="max"></round-progress>
+    <round-progress [current]="current" [max]="max" [duration]="duration" [animationDelay]="animationDelay" [animation]="animation"></round-progress>
     
   </div>
 </ion-content>
